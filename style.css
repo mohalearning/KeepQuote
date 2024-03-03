@@ -7,8 +7,7 @@ body {
     display: flex;
     height: 100vh;
     flex-direction: column;
-    /* justify-content: space-between; */
-    /* border: 1px yellow solid; */
+    background-color: #F9FAF8;
 }
 
 .header {
@@ -19,7 +18,6 @@ body {
     align-items: center;
     font-size: 24px;
     padding: 20px;
-    /* border: 1px red solid; */
 }
 
 a {
@@ -39,14 +37,13 @@ ul {
     color: #F9FAF8;
     display: flex;
     justify-content: space-around;
-    border: 1px green solid;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 img {
     margin: 0;
     width: 400px;
-    /* border: 1px red solid; */
 }
 
 button {
@@ -65,8 +62,6 @@ button {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    /* flex: 1; */
-    /* justify-content: space-between; */
 }
 
 .title {
@@ -75,8 +70,6 @@ button {
     color: #F9FAF8;
     font-weight: 900;
     max-width: 600px;
-    /* text-align: center; */
-    /* border: 1px red solid; */
 }
 
 .title-description {
@@ -88,15 +81,16 @@ button {
     color: #F9FAF8;
     padding: 20px;
     text-align: center;
-    /* border: 1px red solid; */
 }
 
 .infos {
     display: flex;
     flex-direction: column;
+    margin-bottom: 80px;
+    background-color: #F9FAF8;
 }
 
-.quotes{
+.quotes {
     text-align: center;
     font-weight: 900;
     padding: 20px;
@@ -110,32 +104,56 @@ button {
     gap: 80px;
 }
 
-.items .item img
-{
+.items .item img {
     width: 200px;
     height: 200px;
     border: 6px lightskyblue solid;
     border-radius: 5px;
 }
 
-.item
-{
+.item {
     display: flex;
     flex-direction: column;
     max-width: 200px;
 }
 
-.quote-content
-{
+.quote-content {
     width: 400px;
 }
 
-.quote
-{
+.quote {
     background-color: lightgrey;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 50px;
+    margin-bottom: 80px;
+}
+
+.action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    padding: 80px;
+    margin-bottom: 80px;
+}
+
+.box {
+    display: flex;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    padding: 40px 100px;
+    border-radius: 5px;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.action button {
+    border: 2px white solid;
+}
+
+.box-header {
+    font-weight: 900;
 }
