@@ -1,2 +1,2 @@
 # KeepQuote
-A landing page for keeping quote of books you read.
+A landing page for keeping quotes from books you read.
